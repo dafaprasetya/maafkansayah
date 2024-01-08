@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="out">
+        <div class="fade-in">
+            <div class="container">
+                <div class="one common"></div>
+                <div class="two common"></div>
+                <div class="three common"></div>
+                <div class="four common"></div>
+                <div class="five common"></div>
+                <div class="six common"></div>
+                <div class="seven common"></div>
+                <div class="eight common"></div>
+            </div>
+            <div class="anterjmput">
+                <h2>Minta maaf yaaa😁</h2>
+                
+                <button class="custom-btn btn-7" onclick="kirimwa()"><span>Iya❤</span></button>
+                <button class="custom-btn btn-7" onclick="pindah(this)"><span>G</span></button>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function kirimwa() {
+            window.location.href = 'https://wa.me/6281574999858?text=Iya%20dapa%20sayang%20aku%20maapin%20kokk%20jangan%20diulang%20lagi%20yaa'
+
+        }
+        function pindah(id) {
+            var i = Math.floor(Math.random()*200)+1;
+            var j = Math.floor(Math.random()*200)+1;
+            id.style.left = i+'px'
+            id.style.top = i+'px'
+        }
+    </script>
+</body>
+</html>
